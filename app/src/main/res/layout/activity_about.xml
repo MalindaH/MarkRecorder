@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="commalindah.httpsgithub.markrecorder.About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/tv_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    The Mark Recorder app was developed by Malinda (Linhui Huang) in June 2018 for the course CS30S.\n\n    Mark Recorder serves to record the students' names and marks that the user enters. Then the user can choose to sort the students by either their last names or their marks, or to calculate the average mark of all the students. The Restart menu allows the user to clear the students array and start over again. The user can also go to another app to contact the app developer.\n\n    This app uses widgets such as TextView, EditText, Button, ListView, ImageView, and ProgressBar. It also involves the use of three sorting algorithms, recursion, implicit and explicit intents, ListView, menu, and loading functionality."
+                android:layout_below="@id/tv_title_3"
+                android:layout_margin="30dp"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

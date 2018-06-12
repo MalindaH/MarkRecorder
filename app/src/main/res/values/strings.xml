@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mark Recorder</string>
+
+    <string name="action_about">About</string>
+
+    <string name="action_restart">Restart</string>
+</resources>
